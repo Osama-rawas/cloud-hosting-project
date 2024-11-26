@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(10, 9, 9);
+  padding: 0 30px;
+}
+.heroleft {
+}
+.desc {
+  font-size: 21px;
+}
+.title {
+  font-size: 44px;
+  font-weight: bold;
+  color: #000;
+}
+
+.services {
+  padding: 5px;
+  margin-top: 15px;
+}
+.servicesItem {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+@media (max-width: 780px) {
+  .hero {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+  }
+  .heroleft {
+    background-color: snow;
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+  }
+}
